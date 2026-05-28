@@ -5,7 +5,7 @@
 ![WhatsApp Academic Archive](https://img.shields.io/badge/📚-Academic%20Archive-4A90E2?style=for-the-badge)
 ![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs)
 ![Convex](https://img.shields.io/badge/Convex-Database-000000?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </div>
 
@@ -197,12 +197,63 @@ node scripts/send-broadcast.js --message "تنويه مهم" --recipients "group
 
 ## 🏫 المراحل الدراسية المدعومة
 
-| المرحلة | الوصف |
+### 📚 التعليم الأساسي والعام
+
+| المرحلة | الوصف | الفئات |
+|--------|--------|---------|
+| 🎒 **الابتدائية** | الصفوف 1-6 | 6 صفوف أساسية |
+| 📚 **المتوسطة** | الصفوف 7-9 | 3 صفوف متوسطة |
+| 📖 **الثانوية** | الصفوف 10-12 | ثانوي عام وتخصصي |
+
+### 🎓 التعليم الجامعي (شامل)
+
+#### 📖 أنواع الشهادات الجامعية
+| النوع | الوصف | المدة |
+|------|--------|--------|
+| **🏆 البكالوريوس** | درجة البكالوريوس | 4 سنوات |
+| **🎯 الماجستير** | درجة الماجستير | 2-3 سنوات |
+| **🔬 الدكتوراه** | درجة الدكتوراه | 3-5 سنوات |
+| **📜 الدبلوم** | برنامج دبلوم متوسط | 2 سنة |
+
+#### 🏢 الكليات والتخصصات
+
+| الكلية | التخصصات | الرمز |
+|--------|---------|--------|
+| **🔬 كلية العلوم** | الفيزياء، الكيمياء، الأحياء، الرياضيات | SCI |
+| **💻 كلية الهندسة** | المدنية، الكهربائية، الميكانيكية، الحاسوب | ENG |
+| **📚 كلية الآداب والعلوم الإنسانية** | اللغات، التاريخ، الجغرافيا، الفلسفة | ART |
+| **💼 كلية التجارة والإدارة** | المحاسبة، الإدارة، الاقتصاد | BUS |
+| **⚖️ كلية القانون** | القانون العام، التجاري، الإداري | LAW |
+| **🏥 كلية الطب** | الطب العام، الجراحة، الباطنة | MED |
+| **🦷 كلية طب الأسنان** | تخصصات طب الأسنان | DEN |
+| **💊 كلية الصيدلة** | الصيدلة الإكلينيكية، الصيدلة الصناعية | PHR |
+| **🌾 كلية الزراعة** | الهندسة الزراعية، الاقتصاد الزراعي | AGR |
+| **🏫 كلية التربية** | المناهج، التربية، علم النفس | EDU |
+| **📻 كلية الإعلام** | الصحافة، الإذاعة والتلفزيون | MED |
+| **🏋️ كلية التربية الرياضية** | التدريب الرياضي، الإدارة الرياضية | SPT |
+| **🎨 كلية الفنون** | التصميم، العمارة، الفنون الجميلة | ART |
+| **🏥 كلية التمريض** | التمريض العام، التخدير | NUR |
+| **🔧 كلية الصناعة** | الهندسة الصناعية والتكنولوجيا | IND |
+| **👨‍💼 كلية العلوم الإدارية** | الموارد البشرية، الإدارة العامة | ADM |
+| **🌍 كلية العلوم الاجتماعية** | علم الاجتماع، الخدمة الاجتماعية | SOC |
+
+#### 🎯 مستويات الدراسة الجامعية
+
+| المستوى | الوصف |
 |--------|--------|
-| 🎒 **الابتدائية** | الصفوف 1-6 |
-| 📚 **المتوسطة** | الصفوف 7-9 |
-| 📖 **الثانوية** | الصفوف 10-12 |
-| 🎓 **الجامعة** | البرامج الجامعية |
+| **السنة الأولى (الفرقة الأولى)** | المقررات الأساسية والعامة |
+| **السنة الثانية (الفرقة الثانية)** | مقررات متوسطة والتخصص الأولي |
+| **السنة الثالثة (الفرقة الثالثة)** | مقررات متقدمة والتخصص العميق |
+| **السنة الرابعة (الفرقة الرابعة)** | مشاريع تخرج والمقررات النهائية |
+
+#### 📊 أنظمة الدراسة المدعومة
+
+| النظام | الوصف |
+|--------|--------|
+| **النظام الفصلي** | 2 فصل دراسي + فترة صيفية |
+| **النظام السنوي** | سنة دراسية كاملة |
+| **نظام الساعات المعتمدة** | نظام Credit Hours |
+| **التعليم الهجين** | دراسة أون لاين وحضوري |
 
 ---
 
@@ -278,22 +329,35 @@ const sendBroadcast = async (message, stageId) => {
 
 ---
 
-## 📞 التواصل والدعم
-
-للأسئلة والدعم التقني:
-- 📧 البريد الإلكتروني: `support@whatsapparchive.local`
-- 💬 مجموعة WhatsApp: [رابط المجموعة]
-- 🐙 GitHub Issues: [تقرير مشكلة](https://github.com/alihaidershakermax/whatsapparchive/issues)
-
----
-
 ## 📝 الترخيص
 
+هذا المشروع مرخص تحت رخصة **MIT**.
+
 ```
-هذا المشروع خاص واستخدام داخلي فقط.
-جميع الحقوق محفوظة © 2024
-للاستخدام التجاري يرجى التواصل مع المطور.
+MIT License
+
+Copyright (c) 2024 Ali Haider Shaker (alihaidershakermax)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
+
+للمزيد من المعلومات: [MIT License](https://opensource.org/licenses/MIT)
 
 ---
 
