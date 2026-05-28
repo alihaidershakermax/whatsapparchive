@@ -1,0 +1,8 @@
+node_modules/
+.env
+auth_info_baileys/
+combined_tmp.js
+update_welcome.js
+uploads/
+.DS_Store
+.convex/

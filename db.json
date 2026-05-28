@@ -1,0 +1,57 @@
+{
+  "config": {
+    "admin": "9647741939447@s.whatsapp.net",
+    "welcome_img": "https://a.top4top.io/p_3775becgi1.jpg",
+    "dev_img": "https://a.top4top.io/p_3775becgi1.jpg",
+    "dev_bio": "أهلاً بك! أنا مطور هذا البوت، مختص في تطوير الأنظمة الذكية وتسهيل وصول الطلاب للمصادر العلمية.",
+    "social": {
+      "telegram": "https://t.me/your_telegram",
+      "insta": "https://instagram.com/your_insta"
+    }
+  },
+  "archive": {
+    "1": {
+      "name": "المرحلة الأولى",
+      "courses": {
+        "1": {
+          "name": "البرمجة للمبتدئين",
+          "files": [
+            {
+              "name": "ملزمة البرمجة 1.pdf",
+              "type": "document",
+              "mimetype": "application/pdf",
+              "path": "uploads/programming_1.pdf"
+            },
+            {
+              "name": "رابط كورس يوتيوب",
+              "type": "text",
+              "text": "https://youtube.com/playlist?list=example"
+            }
+          ]
+        },
+        "2": {
+          "name": "الرياضيات",
+          "files": []
+        }
+      }
+    },
+    "2": {
+      "name": "المرحلة الثانية",
+      "courses": {}
+    },
+    "3": {
+      "name": "المرحلة الثالثة",
+      "courses": {}
+    },
+    "4": {
+      "name": "المرحلة الرابعة",
+      "courses": {}
+    }
+  },
+  "sessions": {
+    "44170198683667@lid": {
+      "state": "COURSES",
+      "selectedStage": "1"
+    }
+  }
+}
