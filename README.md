@@ -1,56 +1,68 @@
-# 📦 نظام أرشفة واتساب - WhatsAppArchive
+# 📚 نظام الأرشيف الطلابي - WhatsApp Academic Archive
 
-![WhatsApp Archive](https://img.shields.io/badge/WhatsApp-Archive-25D366?style=for-the-badge&logo=whatsapp)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=nodedotjs)
+<div align="center">
+
+![WhatsApp Academic Archive](https://img.shields.io/badge/📚-Academic%20Archive-4A90E2?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs)
 ![Convex](https://img.shields.io/badge/Convex-Database-000000?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)
+
+</div>
 
 ---
 
-## 📋 نبذة عن المشروع
+## 🎓 نبذة عن المشروع
 
-**WhatsAppArchive** هو نظام متطور وشامل لأرشفة ومراقبة الملفات والمستندات، مصمم خصيصًا لتحسين سير عمل التوصيل عبر WhatsApp. يوفر المشروع حلاً قويًا يجمع بين قاعدة بيانات فورية وتخزين موثوق وإدارة المستخدمين بصلاحيات محددة.
+**نظام الأرشيف الطلابي** هو منصة متخصصة لتنظيم وحفظ الملفات والمستندات الدراسية بطريقة احترافية وآمنة. يوفر النظام حلاً شاملاً يتيح للطلاب والمعلمين إدارة المحتوى التعليمي من خلال تصنيف ذكي حسب **المراحل الدراسية** و**المواد والدروس**.
 
-يعتمد النظام على تقنيات حديثة مثل **Convex** للعمليات الفورية و**Cloudflare R2** للتخزين الآمن والفعال.
+النظام مدعوم بتقنيات سحابية حديثة توفر:
+- 🔐 **حفظ آمن** للملفات الدراسية
+- ⚡ **مزامنة فورية** عبر WhatsApp والتطبيق
+- 🎯 **تنظيم ذكي** حسب المراحل والمواد
+- 👥 **إدارة صلاحيات** مرنة للمسؤولين
 
 ---
 
 ## 🎯 المميزات الرئيسية
 
-✨ **قاعدة بيانات فورية في الوقت الحقيقي**
-- مزامنة فورية للرسائل والمستخدمين والملفات
-- تحديثات لحظية دون تأخير
+### 📖 إدارة الملفات الدراسية
+- تنظيم الملفات حسب **المراحل الدراسية** (ابتدائي، متوسط، ثانوي، جامعي)
+- تصنيف حسب **المواد والدروس** بشكل منظم
+- دعم أنواع ملفات متعددة (PDF، صور، فيديو، وثائق)
 
-☁️ **التخزين السحابي القابل للتوسع**
-- تكامل مع Cloudflare R2
-- تخزين موثوق وفعال من حيث التكلفة
-- دعم ملفات بأحجام كبيرة
+### 💾 التخزين الآمن والموثوق
+- حفظ سحابي موثوق عبر **Cloudflare R2**
+- تخزين آمن وفعال من حيث التكلفة
+- سرعة تحميل عالية للملفات
 
-📢 **إدارة الرسائل الجماعية**
-- قائمة انتظار للرسائل
-- تتبع حالة التوصيل (معلقة، مُرسلة، فشلت)
-- تقارير تفصيلية عن كل حملة
+### 📲 التوزيع عبر WhatsApp
+- إرسال الملفات الدراسية عبر WhatsApp مباشرة
+- قائمة انتظار للرسائل الجماعية
+- تتبع حالة التوصيل (معلقة - مُرسلة - فشلت)
+- إمكانية إعادة محاولة التوصيل
 
-🔐 **التحكم بالصلاحيات**
-- نظام إدارة المسؤولين
-- صلاحيات محددة حسب الدور
-- تحكم كامل على المحتوى
+### 🔐 نظام الصلاحيات المتقدم
+- إدارة مسؤولين بصلاحيات مختلفة
+- تحكم كامل على من يمكنه رفع الملفات
+- تقسيم المسؤوليات حسب الأدوار
 
-🎓 **نظام الأرشفة الأكاديمي**
-- تنظيم الملفات حسب المراحل الدراسية
-- تصنيف المحتوى حسب المواد
-- مثالي للمحتوى التعليمي
+### 📊 نظام البحث والإحصائيات
+- البحث السريع عن الملفات حسب المادة والمرحلة
+- إحصائيات حول المحتوى المرفوع
+- سجلات كاملة للعمليات
 
 ---
 
 ## 🛠️ المكونات التقنية
 
-| المكون | التفاصيل |
-|--------|---------|
-| **بيئة التشغيل** | Node.js |
-| **قاعدة البيانات** | Convex (الدوال الخادمة + المشغلات + الفهرسة) |
-| **التخزين** | Cloudflare R2 (عبر AWS S3 SDK) |
+| المكون | الوصف |
+|--------|--------|
+| **بيئة التشغيل** | Node.js 20+ |
+| **قاعدة البيانات** | Convex (Serverless Database) |
+| **التخزين السحابي** | Cloudflare R2 |
+| **التواصل** | WhatsApp API Integration |
+| **لغة البرمجة** | JavaScript |
 | **إدارة البيئة** | Dotenv |
-| **اللغة** | JavaScript |
 
 ---
 
@@ -58,106 +70,254 @@
 
 ```
 whatsapparchive/
-├── backend/              # منطق التخزين (تكامل Cloudflare R2)
-├── convex/               # مخطط قاعدة البيانات والدوال والاستعلامات
-├── public/               # أصول الواجهة الأمامية (HTML, CSS, JS)
-├── scripts/              # سكريبتات إدارة المسؤولين والأدوات
-├── server.js             # نقطة الدخول الرئيسية
-├── config.json           # إعدادات المسؤولين والأرشيفات
-└── .env.example          # قالب متغيرات البيئة
+├── 📁 backend/                  # منطق التخزين السحابي
+│   ├── storage.js               # تكامل Cloudflare R2
+│   └── upload-handler.js        # معالج الرفع
+│
+├── 📁 convex/                   # قاعدة البيانات والدوال
+│   ├── admins.ts                # إدارة المسؤولين
+│   ├── users.ts                 # إدارة الطلاب والمعلمين
+│   ├── files.ts                 # إدارة الملفات الدراسية
+│   ├── stages.ts                # المراحل الدراسية
+│   ├── subjects.ts              # المواد والدروس
+│   ├── broadcasts.ts            # الرسائل الجماعية
+│   └── messages.ts              # سجل الرسائل
+│
+├── 📁 public/                   # الواجهة الأمامية
+│   ├── index.html               # الصفحة الرئيسية
+│   ├── css/                     # الأنماط
+│   └── js/                      # السكريبتات
+│
+├── 📁 scripts/                  # أدوات الإدارة
+│   ├── add-admin.js             # إضافة مسؤول
+│   ├── check-admins.js          # التحقق من المسؤولين
+│   └── manage-files.js          # إدارة الملفات
+│
+├── server.js                    # نقطة الدخول الرئيسية
+├── config.json                  # الإعدادات
+├── .env.example                 # قالب متغيرات البيئة
+└── package.json                 # المكتبات المطلوبة
 ```
 
 ---
 
 ## 🚀 التثبيت والإعداد
 
-### الخطوة 1: استنساخ المستودع
+### المتطلبات
+- Node.js 16 أو أحدث
+- حساب في Cloudflare
+- حساب في Convex
+- مفتاح WhatsApp API (اختياري)
+
+### الخطوة 1️⃣: استنساخ المشروع
 ```bash
 git clone https://github.com/alihaidershakermax/whatsapparchive.git
 cd whatsapparchive
 ```
 
-### الخطوة 2: تثبيت المكتبات
+### الخطوة 2️⃣: تثبيت المكتبات
 ```bash
 npm install
 ```
 
-### الخطوة 3: إعداد متغيرات البيئة
-انسخ ملف `.env.example` إلى `.env` وأكمل بيانات الاعتماد:
-
-```env
-# بيانات Cloudflare R2
-R2_ACCOUNT_ID=معرف_الحساب
-R2_ACCESS_KEY_ID=مفتاح_الوصول
-R2_SECRET_ACCESS_KEY=المفتاح_السري
-R2_BUCKET_NAME=اسم_الدلو
-R2_PUBLIC_URL=https://نطاقك.com
-
-# Convex
-CONVEX_DEPLOYMENT=معرف_النشر
+### الخطوة 3️⃣: إعداد متغيرات البيئة
+انسخ `.env.example` إلى `.env`:
+```bash
+cp .env.example .env
 ```
 
-### الخطوة 4: إعداد قاعدة البيانات
+ثم عدّل البيانات:
+```env
+# 🔑 بيانات Cloudflare R2
+R2_ACCOUNT_ID=معرف_حسابك
+R2_ACCESS_KEY_ID=مفتاح_الوصول
+R2_SECRET_ACCESS_KEY=المفتاح_السري
+R2_BUCKET_NAME=whatsapp-archive
+R2_PUBLIC_URL=https://files.yourdomain.com
+
+# 🗄️ Convex Database
+CONVEX_DEPLOYMENT=معرف_النشر
+
+# 💬 WhatsApp Integration (اختياري)
+WHATSAPP_API_KEY=your_api_key
+WHATSAPP_PHONE_NUMBER=20xxxxxxxxx
+```
+
+### الخطوة 4️⃣: إعداد قاعدة البيانات
 ```bash
 npx convex dev
 ```
+
+### الخطوة 5️⃣: تشغيل الخادم
+```bash
+npm start
+```
+
+ستتمكن من الوصول للتطبيق على: `http://localhost:3000`
 
 ---
 
 ## 🔧 سكريبتات الإدارة
 
-يتضمن المشروع أدوات سطر أوامر لإدارة النظام:
-
-### إضافة مسؤول جديد
+### ➕ إضافة مسؤول جديد
 ```bash
 node scripts/add-admin.js --phone "966501234567" --role "super"
 ```
 
-### التحقق من المسؤولين
+### ✅ عرض قائمة المسؤولين
 ```bash
 node scripts/check-admins.js
 ```
 
+### 📤 رفع ملف دراسي
+```bash
+node scripts/upload-file.js --file "path/to/file.pdf" --stage "secondary" --subject "Math"
+```
+
+### 📡 إرسال رسالة جماعية
+```bash
+node scripts/send-broadcast.js --message "تنويه مهم" --recipients "group:secondary"
+```
+
 ---
 
-## 📡 وحدات قاعدة البيانات (Convex)
+## 📡 وحدات النظام (Convex)
 
 | الملف | الوظيفة |
 |------|---------|
-| `admins.ts` | التحقق من صلاحيات المسؤول وإدارة قائمة المسؤولين |
-| `broadcasts.ts` | إدارة دورة حياة الرسائل الجماعية |
-| `files.ts` | معالجة بيانات الملفات والتصنيف |
-| `messages.ts` | تسجيل واسترجاع السجل الاتصالي |
-| `users.ts` | إدارة بيانات المستخدمين والمشتركين |
+| **`admins.ts`** | التحقق من الصلاحيات وإدارة المسؤولين |
+| **`users.ts`** | إدارة بيانات الطلاب والمعلمين والمشتركين |
+| **`files.ts`** | إدارة الملفات الدراسية والبحث |
+| **`stages.ts`** | تعريف وإدارة المراحل الدراسية |
+| **`subjects.ts`** | تنظيم المواد والدروس |
+| **`broadcasts.ts`** | إدارة الرسائل الجماعية |
+| **`messages.ts`** | تسجيل وسجل جميع الرسائل |
 
 ---
 
-## 📊 حالة المشروع
+## 🏫 المراحل الدراسية المدعومة
 
-- ✅ قاعدة بيانات قابلة للتوسع
-- ✅ نظام إدارة متقدم
-- ✅ أرشفة آمنة
-- 🔄 قيد التطوير المستمر
+| المرحلة | الوصف |
+|--------|--------|
+| 🎒 **الابتدائية** | الصفوف 1-6 |
+| 📚 **المتوسطة** | الصفوف 7-9 |
+| 📖 **الثانوية** | الصفوف 10-12 |
+| 🎓 **الجامعة** | البرامج الجامعية |
+
+---
+
+## 📊 أمثلة الاستخدام
+
+### مثال 1: رفع ملف دراسي
+```javascript
+// من الواجهة الأمامية
+const uploadFile = async (file, stage, subject) => {
+  const response = await fetch('/api/files/upload', {
+    method: 'POST',
+    body: formData,
+    headers: { 'Authorization': `Bearer ${token}` }
+  });
+  return response.json();
+};
+```
+
+### مثال 2: البحث عن ملفات
+```javascript
+const searchFiles = async (query, stage, subject) => {
+  const response = await fetch(
+    `/api/files/search?q=${query}&stage=${stage}&subject=${subject}`
+  );
+  return response.json();
+};
+```
+
+### مثال 3: إرسال رسالة جماعية
+```javascript
+const sendBroadcast = async (message, stageId) => {
+  const response = await fetch('/api/broadcasts/create', {
+    method: 'POST',
+    body: JSON.stringify({ message, stage_id: stageId })
+  });
+  return response.json();
+};
+```
+
+---
+
+## 🔒 أمان البيانات
+
+✅ تشفير بيانات المستخدم
+✅ توثيق قوي (محاسبة دقيقة)
+✅ تحديث أمني منتظم
+✅ حفظ احتياطي تلقائي
+✅ سياسة خصوصية واضحة
+
+---
+
+## 📈 خارطة الطريق (Roadmap)
+
+- [x] إدارة الملفات الأساسية
+- [x] نظام الصلاحيات
+- [x] التوزيع عبر WhatsApp
+- [ ] تطبيق موبايل iOS/Android
+- [ ] نظام المناقشات والتعليقات
+- [ ] نظام الواجبات المنزلية
+- [ ] تقييم الأداء والإحصائيات
+- [ ] دعم الفيديو الحي (Live Classes)
+
+---
+
+## 🤝 المساهمة
+
+نرحب بمساهماتك! يرجى:
+1. عمل Fork للمشروع
+2. إنشاء فرع للميزة الجديدة (`git checkout -b feature/amazing-feature`)
+3. Commit التغييرات (`git commit -m 'Add amazing feature'`)
+4. Push للفرع (`git push origin feature/amazing-feature`)
+5. فتح Pull Request
+
+---
+
+## 📞 التواصل والدعم
+
+للأسئلة والدعم التقني:
+- 📧 البريد الإلكتروني: `support@whatsapparchive.local`
+- 💬 مجموعة WhatsApp: [رابط المجموعة]
+- 🐙 GitHub Issues: [تقرير مشكلة](https://github.com/alihaidershakermax/whatsapparchive/issues)
 
 ---
 
 ## 📝 الترخيص
 
-هذا المشروع خاص واستخدام داخلي فقط. يرجى الاتصال بأصحاب المشروع للحصول على تفاصيل الترخيص.
+```
+هذا المشروع خاص واستخدام داخلي فقط.
+جميع الحقوق محفوظة © 2024
+للاستخدام التجاري يرجى التواصل مع المطور.
+```
 
 ---
 
-## 👨‍💻 المطور
+## 👨‍💻 معلومات المطور
+
+<div align="center">
 
 **علي حيدر شاكر**
-- GitHub: [@alihaidershakermax](https://github.com/alihaidershakermax)
+
+[![GitHub](https://img.shields.io/badge/GitHub-%40alihaidershakermax-black?style=flat-square&logo=github)](https://github.com/alihaidershakermax)
+[![Email](https://img.shields.io/badge/Email-ak6222698%40gmail.com-red?style=flat-square&logo=gmail)](mailto:ak6222698@gmail.com)
+
+</div>
 
 ---
 
 <div align="center">
 
-### 🌟 إذا أعجبك المشروع، لا تنسى إعطاؤه نجمة ⭐
+### 🌟 إذا أعجبك المشروع
 
-**شكراً لاستخدامك WhatsAppArchive**
+#### لا تنسى إعطاؤه نجمة ⭐ وشاركه مع زملائك!
+
+**شكراً لاستخدامك نظام الأرشيف الطلابي**
+
+`آخر تحديث: 2024`
 
 </div>
