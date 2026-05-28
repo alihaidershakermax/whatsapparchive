@@ -2,6 +2,8 @@
 
 <div align="center">
 
+![WhatsApp Archive Logo](https://raw.githubusercontent.com/alihaidershakermax/whatsapparchive/main/assets/logo.png)
+
 ![WhatsApp Academic Archive](https://img.shields.io/badge/📚-Academic%20Archive-4A90E2?style=for-the-badge)
 ![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs)
 ![Convex](https://img.shields.io/badge/Convex-Database-000000?style=for-the-badge)
@@ -92,6 +94,9 @@ whatsapparchive/
 │   ├── add-admin.js             # إضافة مسؤول
 │   ├── check-admins.js          # التحقق من المسؤولين
 │   └── manage-files.js          # إدارة الملفات
+│
+├── 📁 assets/                   # الصور والوسائط
+│   └── logo.png                 # شعار المشروع
 │
 ├── server.js                    # نقطة الدخول الرئيسية
 ├── config.json                  # الإعدادات
