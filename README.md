@@ -274,7 +274,7 @@ const sendBroadcast = async (message, stageId) => {
 ```
 MIT License
 
-Copyright (c) 2024 Ali Haider Shaker (alihaidershakermax)
+Copyright (c) 2026 Ali Haider Shaker (alihaidershakermax)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -320,6 +320,6 @@ SOFTWARE.
 
 **شكراً لاستخدامك نظام الأرشيف الطلابي**
 
-`آخر تحديث: 28 مايو 2024`
+`آخر تحديث: 28 مايو 2026`
 
 </div>
